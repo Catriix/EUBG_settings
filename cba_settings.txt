@@ -264,7 +264,7 @@ force ace_overheating_unJamFailChance = 0.1;
 force ace_overheating_unJamOnreload = false;
 
 // ACE Pointing
-force ace_finger_enabled = false;
+ace_finger_enabled = false;
 ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 ace_finger_indicatorForSelf = false;
 force ace_finger_maxRange = 4;
