@@ -43,7 +43,7 @@ force ace_mk6mortar_useAmmoHandling = true;
 // ACE Captives
 force ace_captives_allowHandcuffOwnSide = true;
 force ace_captives_allowSurrender = true;
-force ace_captives_requireSurrender = 1;
+force ace_captives_requireSurrender = 0;
 force ace_captives_requireSurrenderAi = false;
 
 // ACE Common
@@ -139,7 +139,7 @@ ace_repair_displayTextOnRepair = true;
 force ace_repair_engineerSetting_fullRepair = 2;
 force ace_repair_engineerSetting_repair = 1;
 force ace_repair_engineerSetting_wheel = 0;
-force ace_repair_fullRepairLocation = 2;
+force ace_repair_fullRepairLocation = 3;
 force ace_repair_fullRepairRequiredItems = ["ToolKit"];
 force ace_repair_miscRepairRequiredItems = ["ToolKit"];
 force ace_repair_repairDamageThreshold = 0.6;
@@ -181,7 +181,7 @@ force ace_medical_ai_enabledFor = 2;
 force ace_medical_AIDamageThreshold = 0.75;
 force ace_medical_bleedingCoefficient = 0.5;
 force ace_medical_blood_bloodLifetime = 900;
-force ace_medical_blood_enabledFor = 2;
+force ace_medical_blood_enabledFor = 0;
 force ace_medical_blood_maxBloodObjects = 500;
 force ace_medical_fatalDamageSource = 2;
 force ace_medical_feedback_bloodVolumeEffectType = 0;
@@ -206,7 +206,7 @@ force ace_medical_statemachine_fatalInjuriesPlayer = 2;
 force ace_medical_treatment_advancedBandages = 2;
 force ace_medical_treatment_advancedDiagnose = true;
 force ace_medical_treatment_advancedMedication = true;
-force ace_medical_treatment_allowLitterCreation = true;
+force ace_medical_treatment_allowLitterCreation = false;
 force ace_medical_treatment_allowSelfIV = 1;
 force ace_medical_treatment_allowSelfPAK = 1;
 force ace_medical_treatment_allowSelfStitch = 1;
@@ -378,11 +378,11 @@ ace_vehicles_speedLimiterStep = 5;
 
 // ACE View Distance Limiter
 force ace_viewdistance_enabled = true;
-force ace_viewdistance_limitViewDistance = 1500;
+force ace_viewdistance_limitViewDistance = 2500;
 ace_viewdistance_objectViewDistanceCoeff = 0;
-ace_viewdistance_viewDistanceAirVehicle = 9;
-ace_viewdistance_viewDistanceLandVehicle = 9;
-ace_viewdistance_viewDistanceOnFoot = 3;
+ace_viewdistance_viewDistanceAirVehicle = 4;
+ace_viewdistance_viewDistanceLandVehicle = 4;
+ace_viewdistance_viewDistanceOnFoot = 2;
 
 // ACE Weapons
 ace_common_persistentLaserEnabled = false;
